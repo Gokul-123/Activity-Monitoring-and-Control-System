@@ -1,0 +1,21 @@
+<!-- Store this code in 'index.html' file inside the 'templates' folder-->
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Index </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">					
+	</head>
+	<body></br></br></br></br></br>
+		<div align="center">
+		
+			
+				<h1>{{msg}}</h1>
+			</br></br></br>
+				   
+				<a href="{{ url_for('logout') }}" class="btn">Logout</a>
+	
+		</div>
+	</body>
+</html>
+
